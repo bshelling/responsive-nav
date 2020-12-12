@@ -1,4 +1,5 @@
 import './sass/app.sass'
+import image from './imgs/menu.png'
 
 const $ = require('jquery')
 $('#mobile-menu').on("click",(e) => {
@@ -6,13 +7,23 @@ $('#mobile-menu').on("click",(e) => {
     $(".menu").toggle({
         duration: 500
     })
-
     $(".nav-item").on("click",function(e){
+        var body = $("body")[0]
         var isDisplayed = $(".menu").css("display")
-        if(isDisplayed != "none"){
-            $(".menu").toggle()
-        }
+
+        console.log(body.clientWidth)
+
 
     })
-   
+})
+
+$(window).on("resize",(e) => {
+    var width = $(e.target.outerWidth)
+
+    if(width[0] > 720){
+        var isdisplayed = $(".menu").css("display")
+        if(isdisplayed == "none"){
+            $(".menu").css("display","block")
+        }
+    }
 })

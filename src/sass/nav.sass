@@ -10,7 +10,12 @@ $white: #fff
         flex: 1
         display: flex
         font-size: 1rem
-       
+        
+        .title
+            font-size: 12px
+            margin: 0
+            padding: 0
+            font-family: 'Arial', sans-serif
             
         .logo
             flex: 1
@@ -23,6 +28,8 @@ $white: #fff
             justify-content: flex-end
 
             .inner
+                .bars::before
+                    content: url('../imgs/menu.png')
                 @media ( min-width: 720px )
                     padding: 10px
                     background: red

@@ -18,6 +18,18 @@ module.exports = {
             {
                 test: /\.(js)$/,
                 use: ['babel-loader']
+            },
+            {
+                test: /\.(jpg|png|gif)$/,
+                use: [{
+                    loader: 'file-loader',
+                    options: {
+                        name: '[path][name].[ext]',
+                        context: path.resolve(__dirname, "src/"),
+                        publicPath: '../',
+                        useRelativePaths: true
+                    }
+                }]
             }
         ]
     },
