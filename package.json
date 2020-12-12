@@ -1,7 +1,7 @@
 {
-  "name": "sandbox",
-  "version": "1.0.0",
-  "description": "development sandbox project",
+  "name": "@bshelling/responsive-navigation-bar",
+  "version": "0.0.1",
+  "description": "Easily implement a response navigation bar to website or application",
   "main": "index.js",
   "author": "Brandon Shelling",
   "license": "MIT",
