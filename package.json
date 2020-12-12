@@ -1,0 +1,28 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "development sandbox project",
+  "main": "index.js",
+  "author": "Brandon Shelling",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0"
+  },
+  "scripts": {
+    "develop": "./node_modules/.bin/webpack && ./node_modules/.bin/webpack serve"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "css": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "jquery": "^3.5.1",
+    "mini-css-extract-plugin": "^1.3.3",
+    "node-sass": "^5.0.0",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

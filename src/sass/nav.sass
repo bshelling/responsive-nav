@@ -1,0 +1,63 @@
+$white: #fff
+.nav
+    background: $white
+    display: flex
+    @media screen and ( max-width: 720px )
+         display: block 
+        
+
+    .brand
+        flex: 1
+        display: flex
+        font-size: 1rem
+       
+            
+        .logo
+            flex: 1
+            margin-left: 1rem
+            padding: 10px 0 10px 0
+        .mobile-menu
+            display: flex
+            @media ( min-width: 720px )
+                display: none
+            justify-content: flex-end
+
+            .inner
+                @media ( min-width: 720px )
+                    padding: 10px
+                    background: red
+                padding: 10px
+                background: #f6f6f6
+                
+
+    .menu
+        @media screen and ( max-width: 720px )
+            display: none
+            justify-content: flex-start
+            
+        flex: 1
+        .nav-list
+            @media screen and ( max-width: 720px )
+                display: block
+                margin: 0
+            display: flex
+            justify-content: flex-end
+            margin-right: 1rem
+            .nav-item:hover
+                background: #f5f5f5
+            .nav-item
+                padding: 10px
+                display: inline-block
+                @media screen and ( max-width: 720px )
+                    display: block
+                    border-bottom: 1px solid #f5f5f5
+                    margin-right: 0
+                list-style: none
+                font-size: 0.85rem
+                font-family: 'Arial',sans-serif
+                margin-right: 1rem
+                font-weight: 300
+                a
+                    text-decoration: none
+                    color: #000
+                    
