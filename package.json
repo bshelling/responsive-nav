@@ -5,14 +5,25 @@
   "main": "index.js",
   "author": "Brandon Shelling",
   "license": "MIT",
+  "keywords": [
+    "navigation",
+    "responsive",
+    "css",
+    "web design"
+  ],
   "dependencies": {
     "webpack": "^5.10.1",
     "webpack-cli": "^4.2.0"
   },
   "scripts": {
     "develop": "./node_modules/.bin/webpack && ./node_modules/.bin/webpack serve",
-    "build":"./node_modules/.bin/webpack --mode production"
+    "build": "./node_modules/.bin/webpack --mode production"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bshelling/responsive-nav.git"
+  },
+  "private": false,
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "babel-loader": "^8.2.2",
