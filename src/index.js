@@ -19,11 +19,17 @@ $('#mobile-menu').on("click",(e) => {
 
 $(window).on("resize",(e) => {
     var width = $(e.target.outerWidth)
+    var isdisplayed = $(".menu").css("display")
 
     if(width[0] > 720){
-        var isdisplayed = $(".menu").css("display")
         if(isdisplayed == "none"){
             $(".menu").css("display","block")
         }
+    }
+    if(width[0]<719){
+
+        if(isdisplayed == "block"){
+            $(".menu").css("display","none")
+        } 
     }
 })
