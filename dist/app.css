@@ -1,1 +1,96 @@
-.nav{background:#fff;display:flex}@media screen and (max-width: 720px){.nav{display:block}}.nav .brand{flex:1;display:flex;font-size:1rem}.nav .brand .title{font-size:12px;margin:0;padding:0;font-family:"Arial",sans-serif}.nav .brand .logo{flex:1;margin-left:1rem;padding:10px 0 10px 0}.nav .brand .mobile-menu{display:flex;justify-content:flex-end}@media(min-width: 720px){.nav .brand .mobile-menu{display:none}}.nav .brand .mobile-menu .inner{padding:10px;background:#f6f6f6}.nav .brand .mobile-menu .inner .bars::before{content:url(../imgs/menu.png)}@media(min-width: 720px){.nav .brand .mobile-menu .inner{padding:10px;background:red}}.nav .menu{flex:1}@media screen and (max-width: 720px){.nav .menu{display:none;justify-content:flex-start}}.nav .menu .nav-list{display:flex;justify-content:flex-end;margin-right:1rem}@media screen and (max-width: 720px){.nav .menu .nav-list{display:block;margin:0}}.nav .menu .nav-list .nav-item:hover{background:#f5f5f5}.nav .menu .nav-list .nav-item{padding:10px;display:inline-block;list-style:none;font-size:.85rem;font-family:"Arial",sans-serif;margin-right:1rem;font-weight:300}@media screen and (max-width: 720px){.nav .menu .nav-list .nav-item{display:block;border-bottom:1px solid #f5f5f5;margin-right:0}}.nav .menu .nav-list .nav-item a{text-decoration:none;color:#000}body{background:#262329;font-size:12px;margin:0}
+.nav {
+  background: #fff;
+  display: flex;
+}
+@media screen and (max-width: 720px) {
+  .nav {
+    display: block;
+  }
+}
+.nav .brand {
+  flex: 1;
+  display: flex;
+  font-size: 1rem;
+}
+.nav .brand .title {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+.nav .brand .logo {
+  flex: 1;
+  margin-left: 1rem;
+  padding: 10px 0 10px 0;
+}
+.nav .brand .mobile-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+@media (min-width: 720px) {
+  .nav .brand .mobile-menu {
+    display: none;
+  }
+}
+.nav .brand .mobile-menu .inner {
+  padding: 10px;
+  background: #f6f6f6;
+}
+.nav .brand .mobile-menu .inner .bars::before {
+  content: url(../imgs/menu.png);
+}
+@media (min-width: 720px) {
+  .nav .brand .mobile-menu .inner {
+    padding: 10px;
+    background: red;
+  }
+}
+.nav .menu {
+  flex: 1;
+}
+@media screen and (max-width: 720px) {
+  .nav .menu {
+    display: none;
+    justify-content: flex-start;
+  }
+}
+.nav .menu .nav-list {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+@media screen and (max-width: 720px) {
+  .nav .menu .nav-list {
+    display: block;
+    margin: 0;
+  }
+}
+.nav .menu .nav-list .nav-item:hover {
+  background: #f5f5f5;
+}
+.nav .menu .nav-list .nav-item {
+  padding: 10px;
+  display: inline-block;
+  list-style: none;
+  font-size: 0.85rem;
+  font-family: "Arial", sans-serif;
+  margin-right: 1rem;
+  font-weight: 300;
+}
+@media screen and (max-width: 720px) {
+  .nav .menu .nav-list .nav-item {
+    display: block;
+    border-bottom: 1px solid #f5f5f5;
+    margin-right: 0;
+  }
+}
+.nav .menu .nav-list .nav-item a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  background: #262329;
+  font-size: 12px;
+  margin: 0;
+}

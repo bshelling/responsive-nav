@@ -6,3 +6,6 @@ Navigation added with first level
 # 0.1.1
 Modify the script for media screen size < 720px
 - Fixed a breakpoint bug that caused the menu to open when descreasing screen size
+
+# 0.0.7
+Include dist folder

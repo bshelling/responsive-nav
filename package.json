@@ -1,6 +1,6 @@
 {
   "name": "@bshelling/responsive-navigation-bar",
-  "version": "0.0.1",
+  "version": "0.0.8",
   "description": "Easily implement a response navigation bar to website or application",
   "main": "index.js",
   "author": "Brandon Shelling",
